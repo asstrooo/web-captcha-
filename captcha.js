@@ -19,7 +19,7 @@ function getRandomNumber(min, max) {
     sessionStorage.setItem('captchaResult', captcha.result);
   }
   
-  /a
+  
   function validateCaptcha() {
     const userInput = document.getElementById('captchaInput').value;
     const captchaResult = sessionStorage.getItem('captchaResult');
